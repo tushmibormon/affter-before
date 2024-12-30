@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: url(../pexels-pixabay-268533.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+    position: relative;
+}
+.aff{
+    position: relative;
+    text-align: left;
+}
+.aff h1{
+    position: absolute;
+    color: white;
+    display: inline-block;
+}
+.aff h1::after{
+    position: absolute;
+    height: 100px;
+    width: 5px;
+    background: black;
+    content: "";
+    top: 45px;
+    left: 50%;
+}
+.aff h1::before{
+    position: absolute;
+    height: 100px;
+    width: 5px;
+    background: black;
+    content: "";
+    top: -100px;
+    left: 50%;
+}
+span::after{
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    background: black;
+    content: "";
+    top: 50%;
+    left: 220px;
+}
+span::before{
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    background: black;
+    content: "";
+    top: 50%;
+    left: -110px;
+}
